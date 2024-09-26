@@ -31,4 +31,4 @@ module circlediamond(
     }
 };
 
-circlediamond(sq=15, x=20, y=20, r=10, bolt="M6");
+circlediamond(sq=12, x=18.5, y=18.5, r=19/2, bolt="M5", h=15);
