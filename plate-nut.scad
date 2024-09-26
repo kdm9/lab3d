@@ -1,5 +1,5 @@
 // Copyright 2024 Kevin Murray <foss@kdmurray.id.au>
-// CC-BY-NC-SA licensed
+// CC-BY-NC-SA licensed, https://creativecommons.org/licenses/by-nc-sa/4.0/
 //
 // This is designed to fit between the wells of a 6 or 12 well plate
 // to adjust the lid height. Use with an appropriate sized bolt, and 
@@ -10,7 +10,7 @@ include <BOSL2/std.scad>
 use <threadlib/threadlib.scad>
 $fn=1024;
 
-
+    
 module circlediamond(sq=40, x=40, y=40, r=20, h=20) {
     eps=0.01;
     translate([-(x-sq)/2, -(y-sq)/2, 0])
